@@ -1,0 +1,31 @@
+{
+  "name": "karma-vserror-reporter",
+  "version": "0.0.1",
+  "description": "Karma plugin that reports in Visual Studio error format.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {},
+  "keywords": [
+    "karma-plugin",
+    "karma-reporter",
+    "visual studio",
+	"vs"
+  ],
+  "author": {
+    "name": "Jo Van den Berghe"
+  },
+  "dependencies": {
+    "chalk": "^0.5.1"
+  },
+  "peerDependencies": {
+    "karma": ">=0.9"
+  },
+  "license": "MIT",
+  "readme": "# karma-vserror-reporter\n\n> This karma reporter plugin will log errors in visual studio style. Double click the error in the error list to go to the right file and line.\n\n## How does it look like?\n###Output:\n![screenshot](images/screenshot-output.png)\n\n###Error List:\n![screenshot](images/screenshot-errorlist.png)\n\n## Installation\nFirst install and configure karma, then install the karma-vserror-reporter\n\n    $ npm install karma-vserror-reporter --save-dev\n\n## Configuration\nconfigure in `karma.conf.js` the new reporter:\n\n    module.exports = function(config) {\n      config.set({\n        ...\n        reporters: ['vserror'],\n        ...\n      });\n    };",
+  "readmeFilename": "README.md",
+}
