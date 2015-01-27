@@ -1,7 +1,12 @@
 {
   "name": "karma-vserror-reporter",
   "version": "0.0.1",
-  "description": "Karma plugin that reports in Visual Studio error format.",
+  "homepage": "https://github.com/jovdb/karma-vserror-reporter",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jovdb/karma-vserror-reporter.git"
+  },
+"description": "Karma plugin that reports in Visual Studio error format.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
