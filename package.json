@@ -1,12 +1,13 @@
 {
   "name": "karma-vserror-reporter",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "https://github.com/jovdb/karma-vserror-reporter",
   "repository": {
-    "type": "git",
-    "url": "http://github.com/jovdb/karma-vserror-reporter.git"
+     "type": "git",
+     "url": "http://github.com/jovdb/karma-vserror-reporter.git"
+    }
   },
-"description": "Karma plugin that reports in Visual Studio error format.",
+  "description": "Karma plugin that reports in Visual Studio error format.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,12 +15,11 @@
   "files": [
     "index.js"
   ],
-  "repository": {},
   "keywords": [
     "karma-plugin",
     "karma-reporter",
     "visual studio",
-	"vs"
+    "vs"
   ],
   "author": {
     "name": "Jo Van den Berghe"
@@ -31,6 +31,11 @@
     "karma": ">=0.9"
   },
   "license": "MIT",
-  "readme": "# karma-vserror-reporter\n\n> This karma reporter plugin will log errors in visual studio style. Double click the error in the error list to go to the right file and line.\n\n## Installation\nFirst install and configure karma, then install the karma-vserror-reporter\n\n    $ npm install karma-vserror-reporter --save-dev\n\n## Configuration\nconfigure in `karma.conf.js` the new reporter:\n\n    module.exports = function(config) {\n      config.set({\n        ...\n        reporters: ['vserror'],\n        ...\n      });\n    };",
-  "readmeFilename": "README.md"
+  "readme": "# karma-vserror-reporter\n\n> This karma reporter plugin will log errors in visual studio style. Double click the error in the error list to go to the right file and line.\nInline sourcemaps are supported.\n\n## Installation\nFirst install and configure karma, then install the karma-vserror-reporter\n\n    $ npm install karma-vserror-reporter --save-dev\n\n## Configuration\nconfigure in `karma.conf.js` the new reporter:\n\n    module.exports = function(config) {\n      config.set({\n        ...\n        reporters: ['vserror'],\n        ...\n      });\n    };",
+  "readmeFilename": "README.md",
+  "_id": "karma-vserror-reporter@0.0.3",
+  "_from": "karma-vserror-reporter@~0.0.1",
+  "devDependencies": {
+    "source-map": "^0.2.0"
+  }
 }

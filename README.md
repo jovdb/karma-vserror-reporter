@@ -1,6 +1,6 @@
 # karma-vserror-reporter
 
-> This karma reporter plugin will log errors in visual studio style. Double click the error in the error list to go to the right file and line.
+> This karma reporter plugin will log errors in visual studio style. Double click the error in the error list to go to the right file and line. Inline sourcemaps are supported.
 
 ## How does it look like?
 ###Output:
